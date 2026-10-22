@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d2b4b67617639fe4687cabeb78ccb1b4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 277392
+  packageName: Scene Loader
+  packageVersion: 1.1.0
+  assetPath: Packages/com.lamou.sceneloader/Editor/SceneLoaderGroup.cs
+  uploadId: 756229

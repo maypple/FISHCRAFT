@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0bcdd63bcffdd8d40af7d186489fbfef
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 277392
+  packageName: Scene Loader
+  packageVersion: 1.1.0
+  assetPath: Packages/com.lamou.sceneloader/README.md
+  uploadId: 756229

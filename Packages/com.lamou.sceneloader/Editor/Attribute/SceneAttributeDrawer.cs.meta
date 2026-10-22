@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: eff69d832864b8644bbe796b9b27f8e1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 277392
+  packageName: Scene Loader
+  packageVersion: 1.1.0
+  assetPath: Packages/com.lamou.sceneloader/Editor/Attribute/SceneAttributeDrawer.cs
+  uploadId: 756229
