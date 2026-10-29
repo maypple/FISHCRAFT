@@ -2984,6 +2984,7 @@ GameObject:
   - component: {fileID: 1729198292}
   - component: {fileID: 1729198291}
   - component: {fileID: 1729198290}
+  - component: {fileID: 1729198293}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -3055,10 +3056,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 102900000, guid: 55227c76768124c46998ca354992444f, type: 3}
-        m_TargetAssemblyTypeName: UnityEditor.SceneAsset, UnityEditor.CoreModule
-        m_MethodName: set_name
-        m_Mode: 5
+      - m_Target: {fileID: 1729198293}
+        m_TargetAssemblyTypeName: SceneLoaderEvent, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3105,6 +3106,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1729198288}
   m_CullTransparentMesh: 1
+--- !u!114 &1729198293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729198288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8358433722fc744398d1917259ff441, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SceneLoaderEvent
+  sceneName: level_1_ft
+  loadAdditively: 0
+  loadDelay: 0
+  onBeforeLoad:
+    m_PersistentCalls:
+      m_Calls: []
+  onAfterLoad:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &2006567427
 GameObject:
   m_ObjectHideFlags: 0
